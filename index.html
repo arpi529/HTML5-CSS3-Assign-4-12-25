@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details Layout</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:beige;
+            padding: 20px;
+        }
+
+        .container{
+            max-width: 600px;
+            margin: auto;
+            background: #64b1cb;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(109, 7, 67, 0.1);
+        }
+
+        .header{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        
+        }
+
+        .section{
+            margin-bottom: 15px;
+        }
+
+        .section h3{
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            color: #333;
+        }
+
+        .detail{
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+        }
+
+        .label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQFDPKzJbyV5HQ/profile-displayphoto-crop_800_800/B4DZo9O6H_G8AM-/0/1761963912472?e=1766016000&v=beta&t=H0Bl_Y0uX6oTfpFuvz5qUFoO3DV8uHBBfgxczwi6tfI" alt="Profile Photo">
+            <h2>Arpit Himanshu</h2>
+            <p> Student</p>
+        </div>
+
+        <div class="section">
+            <h3>Personal Information</h3>
+
+            <div class="detail">
+                <div class="label">Age:</div>
+                <div class="value">19</div>
+            </div>
+
+            <div class="detail">
+                <div class="label">Gender:</div>
+                <div class="value">Male</div>
+            </div>
+
+            <div class="detail">
+                <div class="label">Date of Birth:</div>
+                <div class="value">29 Mar 2006</div>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h3>Contact Details</h3>
+
+            <div class="detail">
+                <div class="label">Phone:</div>
+                <div class="value">+91 92791 31711</div>
+            </div>
+
+            <div class="detail">
+                <div class="label">Email:</div>
+                <div class="value">a2rpithimanshu277@gmail.com</div>
+            </div>
+
+            <div class="detail">
+                <div class="label">Address:</div>
+                <div class="value">Ranchi, India</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
